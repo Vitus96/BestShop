@@ -1,6 +1,6 @@
 :root {
-    --primary-font: "Relaway", sans-serif;
-    --secondary-font: "Open Sans", sans-serif;
+    --font-raleway: "Relaway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
 
     --color-primary: #08A6E4;
     --color-primary-shadow: rgba(7, 172, 230, .16);
@@ -49,5 +49,7 @@ h2 {
     margin-right: auto;
 }
 */
+
+
 
 
