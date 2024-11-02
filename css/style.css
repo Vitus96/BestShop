@@ -117,3 +117,42 @@ header {
 }
     /*
 
+/*---------------MAIN - Section 1------------ */
+
+.section-1-containe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1-containe h1 {
+    font-family: var(--font-raleway);
+    font-size: 49px;
+    color: var(--color-black);
+    margin-top: 130px;
+}
+
+.section-1-containe p {
+    font-family: var(--font-open-sans);
+    font-size: 16px;
+    color: var(--color-black);
+    margin-top: 20px;
+}
+
+.section-1-btn {
+    margin-top: 38px;
+    border-radius:40px;
+    border: none;
+    background-color: var(--color-primary);
+    padding: 22px 157px;
+    font-family:  var(--font-open-sans);
+    color: var(--color-white);
+}
+
+.section-1 img {
+    width: 100%;
+    /*height: auto;*/
+}
+
+
