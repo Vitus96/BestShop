@@ -49,7 +49,71 @@ h2 {
     margin-right: auto;
 }
 */
+/*------------------HEADER------------------*/
+header {
+    height: 70px;
+    box-shadow: 0px 3px 6px #00000029;
 
+}
 
+.header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header-title {
+    font-size: 32px;
+    color: var(--color-primary);
+}
+
+.header-nav-nav {
+    display: flex;
+}
+
+.header-nav-nav li {
+    padding: 26px;
+    font-size: 11px;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-nav-nav a {
+    padding: 26px;
+    color: var(--color-grey);
+    letter-spacing: 3.3px;
+
+}
+
+.header-nav-nav a:hover {
+    color: var(--color-black);
+    border-bottom: var(--color-primary) 3px solid;
+
+}
+
+/*
+.header-navigation li {
+    display: inline-block;
+    text-align: center;
+    padding: 26px;
+    border: black solid 1px;
+    margin: 0;
+}
+
+.header-navigation a {
+    padding: 26px;
+    font-size: 11px;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    color: var(--color-black);
+    text-transform: uppercase;
+}
+
+.header-navigation a:hover {
+    color: var(--color-black);
+    border-color: var(--color-primary);
+}
+    /*
 
