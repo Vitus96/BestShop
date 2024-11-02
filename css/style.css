@@ -49,6 +49,8 @@ h2 {
     margin-right: auto;
 }
 */
+
+
 /*------------------HEADER------------------*/
 header {
     height: 70px;
@@ -73,7 +75,6 @@ header {
 }
 
 .header-nav-nav li {
-    padding: 26px;
     font-size: 11px;
     font-family: var(--font-open-sans);
     font-weight: bold;
@@ -117,8 +118,8 @@ header {
 }
     /*
 
-/*---------------MAIN - Section 1------------ */
 
+/*---------------MAIN - Section 1------------ */
 .section-1-containe {
     display: flex;
     justify-content: center;
@@ -155,8 +156,8 @@ header {
     /*height: auto;*/
 }
 
-/* ------------MAIN - Section 2 ----------*/
 
+/* ------------MAIN - Section 2 ----------*/
 .section-2-containe {
     display: flex; 
     flex-direction: column;
@@ -193,3 +194,17 @@ header {
     color: var(--color-grey); 
     flex-grow: 1;
 }
+
+.section-2-containe-column-1,
+.section-2-containe-column-2,
+.section-2-containe-column-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+
+/* --------------MAIN - Section 3 -------------*/
+
