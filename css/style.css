@@ -74,18 +74,25 @@ header {
     display: flex;
 }
 
+/*
 .header-nav-nav li {
     font-size: 11px;
     font-family: var(--font-open-sans);
     font-weight: bold;
     text-transform: uppercase;
 }
+*/
 
 .header-nav-nav a {
     padding: 26px;
+    margin-left: 30px;
     color: var(--color-grey);
     letter-spacing: 3.3px;
 
+    font-size: 11px;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .header-nav-nav a:hover {
@@ -184,6 +191,12 @@ header {
     color: var(--color-black);
     margin: 13px 0 19px 0;
     text-align: center;
+    letter-spacing: 6px;
+    font-weight:900;
+}
+
+.section-2-containe-column-2 p:nth-of-type(1) {
+    margin-top: 27px;
 }
 
 .section-2-containe-column-1 p:nth-of-type(2),
@@ -202,9 +215,71 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    position: relative;
 } 
 
 
+/* ----------MAIN - Section 2 - Column 1 ---------*/
+.section-2-containe-column-1::after {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: -6px;
+    left: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color-redish);
+}
+
+.section-2-containe-column-1 img {
+    position: relative;
+    left: 10px;
+    z-index: 1;
+}
+
+
+/* ----------MAIN - Section 2 - Column 2 ---------*/
+.section-2-containe-column-2::after {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: -6px;
+    left: 54px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+
+.section-2-containe-column-2 img {
+    position: relative;
+    left: 16px;
+    top: 9px;
+    z-index: 1;
+}
+
+
+/* ----------MAIN - Section 2 - Column 3 ---------*/
+.section-2-containe-column-3::after {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    top: -6px;
+    left: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color-green);
+}
+
+.section-2-containe-column-3 img {
+    position: relative;
+    left: 18px;
+    z-index: 1;
+}
 
 /* --------------MAIN - Section 3 -------------*/
 
