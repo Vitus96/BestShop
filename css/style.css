@@ -9,6 +9,7 @@
     --color-black: #000000;
     --color-white: #ffffff;
     --color-grey: #A5A5A5;
+    --color-grey-border: #E8E9ED;
     --color-light-grey: #F7F7F7;
 
 }
@@ -168,7 +169,7 @@ header {
 .section-2-containe {
     display: flex; 
     flex-direction: column;
-    margin-bottom: 100px;  
+   margin-bottom: 100px;
 }
 
 .section-2-containe-column {
@@ -281,5 +282,200 @@ header {
     z-index: 1;
 }
 
+
+
+
+          
 /* --------------MAIN - Section 3 -------------*/
+.section-3 {
+    background-color: var(--color-light-grey);
+    padding: 105px;
+}
+
+     
+/*----------MAIN - Section 3 - 1 row-----------*/
+.section-3-contain-1 {
+    display: flex;
+    /*justify-content: space-between;*/
+    background-color: var(--color-white);
+    border-radius: 5px; 
+}
+
+.section-3-contain-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 91px 35px 91px 35px;
+}
+
+.section-3-contain-1-text h2 {
+    font-family: var(--color-black);
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+.section-3-contain-1-text p {
+    font-family: var(--color-black);
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid var(--color-redish);
+    width: 416px;
+
+}
+
+.section-3-contain-1-img {
+    position:relative;
+    /*display: block;*/
+    /*padding: 38px 71px;*/
+
+    margin-right: 117px;
+    margin-bottom: 38px;
+}
+
+.section-3-contain-1-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 65px;
+    left: 586px;
+    border: none;
+    border-radius: 41px;
+    background-color: var(--color-redish);
+    transform: rotate(45deg);
+
+}
+
+.section-3-contain-1-img img {
+    position: relative;
+    /*z-index: 1;*/
+    width: 386px;
+    height: auto;
+    top: 115px;
+    left: 370px;
+}
+
+
+/*----------MAIN - Section 3 - 2 row-----------*/
+.section-3-contain-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    background-color: var(--color-white);
+    border-radius: 5px; 
+    /*position: relative;*/
+}
+
+.section-3-contain-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 20px 70px 20px;
+}
+
+.section-3-contain-2-text h2 {
+    font-family: var(--color-black);
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+
+.section-3-contain-2-text p {
+    font-family: var(--color-black);
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid var(--color-primary);
+    width: 416px;
+}
+
+.section-3-contain-2-img {
+    position:relative;
+}
+
+.section-3-contain-2-img::before {
+    content: "";
+    position: absolute;
+    display: block;
+
+    width: 320px;
+    height: 320px;
+    top: 20px;
+    left: 130px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+
+.section-3-contain-2-img img {
+    position: relative;
+    z-index: 1;
+    width: 426px;
+    height: auto;
+    top: 28px;
+    left: 140px;
+}
+
+
+/*----------MAIN - Section 3 - 3 row-----------*/
+
+.section-3-contain-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-contain-3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--color-white);
+    padding: 70px 35px 70px 35px; 
+    margin-top: 37px;  
+}
+
+.section-3-contain-3-text h2 {
+    font-family: var(--color-black);
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    width: 420px;
+}
+
+.section-3-contain-3-text p {
+    font-family: var(--color-black);
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid var(--color-green);
+    width: 553px;
+    /*margin-right: 30px;*/
+}
+
+.section-3-contain-3-img {
+    position: relative;
+    background-color: var(--color-green);
+    border-radius: 4px;
+    margin-top: 38px;
+    /*padding-left: 150px;*/
+    width: 440px;  
+}
+
+.section-3-contain-3-img img {
+    position: relative;
+    width: 426px;
+    height: auto;
+    top: 70px;
+    left: -24px;
+}
+
+
+
+
+
+
 
