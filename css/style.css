@@ -475,7 +475,24 @@ header {
 
 
 
+/*------------MAIN - Section 4 (Pricing)-------*/
+
+.section-4-a {
+    width: 1266px;
+    width: 100%;
+    margin: 100px 180px 0 180px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
 
+.section-4-a-boxes {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
 
