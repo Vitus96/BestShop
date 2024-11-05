@@ -482,21 +482,270 @@ header {
 
 
 /*------------MAIN - Section 4 (Pricing)-------*/
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .section-4-a {
-    width: 1266px;
-    width: 100%;
-    margin: 100px 180px 0 180px;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-
+    width: 1266px;
+    margin: 100px 180px 0 180px;
 }
 
 .section-4-a-boxes {
    display: flex;
    justify-content: space-between;
    align-items: center;
-    
 }
 
+
+/*------------MAIN - Section 4a - 1. box-------*/
+.section-4-a h2 {
+    text-align: center;
+    /*margin-bottom: 50px; lepší bude nastavit u jednotlivých boxů*/
+    font-size: 36px;
+    font-family: var(--font-raleway);
+
+}
+
+.section-4-a-boxes {
+    margin-top: 71px;
+}
+
+.section-4-a-box-1 {
+   text-align: center; 
+   border: var(--color-redish) 1px solid;
+   border-radius: 18px;
+   height: 461px;
+   width:372px;
+}
+
+.section-4-a-box-1 h3 {
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    margin-top: 51px;
+    margin-bottom: 14px;
+    font-weight: bolder;
+}
+
+.section-4-a-box-1 {
+    position: relative;
+}
+
+.section-4-a-box-1 strong {
+    display: inline-block;
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-redish);
+    padding-bottom: 69px;
+}
+
+.section-4-a-box-1 ul {
+    margin: 0 100px 0 100px;
+}
+
+.section-4-a-box-1 li {
+    display: block;
+    list-style: none;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*
+.section-4-a-box-1 li:last-of-type {
+    margin-bottom: 0;
+}
+
+.img-1 {
+    position: absolute;
+    top:2px;
+    left: 0;
+}
+
+.li-2 img {}
+
+*/
+
+
+
+/*
+.section-4-a-box-1 li img:nth-of-type(1) {
+    position: absolute;
+    top:2px;
+    left: 0;
+}
+
+.section-4-a-box-1 li img:nth-of-type(2) {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+}
+*/
+
+
+/*
+.section-4-a-box-1 li:nth-of-type(1),
+.section-4-a-box-1 li:nth-of-type(2),
+.section-4-a-box-1 li:nth-of-type(3) {
+    display: block;
+    background-image: url(../assets/Checkmark-2.svg);
+    /*width: 11px;
+    height: 11px;
+    /*position: absolute;
+}*/
+
+
+
+
+
+
+/*
+section-4-a-button-1 {
+    background-color: var(--color-redish);
+    border-radius: 23px;
+    padding: 16px 57px;
+    margin-top: 55px;
+    display: inline-block;
+}
+*/
+
+.section-4-a-button-1 {
+    background-color: var(--color-redish);
+    border-radius: 23px;
+    padding: 16px 57px;
+    position: absolute;
+    top: calc(461px - 24px);
+    left: calc(186px - 77.5px);
+    font-family:  var(--font-open-sans);
+    font-size: 13px;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+
+/*------------MAIN - Section 4a - 2. box-------*/
+.section-4-a-box-2 {
+    text-align: center;
+    border: var(--color-primary) 1px solid;
+    border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
+    height: 500px;
+    width: 405px;
+    position: relative;
+}
+
+.section-4-a-box-2 h3 {
+    font-size: 21px;
+    font-family:  var(--font-raleway);
+    font-weight: bolder;
+    margin-top: 34px;
+    margin-bottom: 14px;
+    margin-top: 34px;
+}
+
+.section-4-a-box-2 strong {
+    display: inline-block;
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-primary);
+    padding-bottom: 20px;
+}
+
+.section-4-a-box-2 p {
+    font-size: 12px;
+    color: var(--color-black);
+    font-family:  var(--font-raleway);
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 61px;
+}
+
+.section-4-a-box-2 li {
+    display: block;
+    list-style: none;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.section-4-a-bottno-2 {
+    background-color: var(--color-primary);
+    border-radius: 23px;
+    padding: 16px 57px;
+    position: absolute;
+    font-family:  var(--font-open-sans);
+    font-size: 13px;
+    color: var(--color-white);
+    font-weight: bold;
+    top: calc(500px - 22.5px);
+    left: calc(192.5px - 75px);
+    margin-bottom: 120px;
+
+}
+
+
+
+
+
+/*------------MAIN - Section 4a - 3. box-------*/
+
+.section-4-a-box-3 {
+    position: relative;
+    text-align: center;
+    border: var(--color-green) 1px solid;
+    border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
+    height: 461px;
+    width: 372px;
+}
+
+.section-4-a-box-3 h3 {
+    font-size: 21px;
+    font-family:  var(--font-raleway);
+    font-weight: bolder;
+    margin-top: 34px;
+    margin-bottom: 14px;
+    margin-top: 34px;
+}
+
+.section-4-a-box-3 strong {
+    display: inline-block;
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-green);
+    padding-bottom: 20px;
+}
+
+.section-4-a-box-3 p {
+    font-size: 12px;
+    color: var(--color-black);
+    font-family:  var(--font-raleway);
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 61px;
+}
+
+.section-4-a-box-3 li {
+    display: block;
+    list-style: none;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-4-a-bottno-3 {
+    position: absolute;
+    background-color: var(--color-green);
+    border-radius: 23px;
+    padding: 16px 57px;
+    font-family:  var(--font-open-sans);
+    font-size: 13px;
+    color: var(--color-white);
+    font-weight: bold;
+    top: calc(461px - 22.5px);
+    left: calc(186px - 75px);
+
+}
