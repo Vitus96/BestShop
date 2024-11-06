@@ -151,11 +151,11 @@ header {
 
 .section-1-btn {
     margin-top: 38px;
-    border-radius:40px;
+    border-radius: 40px;
     border: none;
     background-color: var(--color-primary);
     padding: 22px 157px;
-    font-family:  var(--font-open-sans);
+    font-family: var(--font-open-sans);
     color: var(--color-white);
 }
 
@@ -167,9 +167,9 @@ header {
 
 /* ------------MAIN - Section 2 ----------*/
 .section-2-containe {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-   margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .section-2-containe-column {
@@ -193,7 +193,7 @@ header {
     margin: 13px 0 19px 0;
     text-align: center;
     letter-spacing: 6px;
-    font-weight:900;
+    font-weight: 900;
 }
 
 .section-2-containe-column-2 p:nth-of-type(1) {
@@ -205,7 +205,7 @@ header {
 .section-2-containe-column-3 p:nth-of-type(2) {
     font-family: var(--font-raleway);
     font-size: 17px;
-    color: var(--color-grey); 
+    color: var(--color-grey);
     flex-grow: 1;
 }
 
@@ -218,7 +218,7 @@ header {
     flex-direction: column;
 
     position: relative;
-} 
+}
 
 
 /* ----------MAIN - Section 2 - Column 1 ---------*/
@@ -285,20 +285,20 @@ header {
 
 
 
-          
+
 /* --------------MAIN - Section 3 -------------*/
 .section-3 {
     background-color: var(--color-light-grey);
     padding: 105px;
 }
 
-     
+
 /*----------MAIN - Section 3 - 1 row-----------*/
 .section-3-contain-1 {
     display: flex;
     /*justify-content: space-between;*/
     background-color: var(--color-white);
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .section-3-contain-1-text {
@@ -326,7 +326,7 @@ header {
 }
 
 .section-3-contain-1-img {
-    position:relative;
+    position: relative;
     /*display: block;*/
     /*padding: 38px 71px;*/
     flex-grow: 1;
@@ -364,7 +364,7 @@ header {
     justify-content: space-between;
     margin-top: 37px;
     background-color: var(--color-white);
-    border-radius: 5px; 
+    border-radius: 5px;
     /*position: relative;*/
 }
 
@@ -392,7 +392,7 @@ header {
 }
 
 .section-3-contain-2-img {
-    position:relative;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -439,8 +439,8 @@ header {
     justify-content: center;
     border-radius: 4px;
     background-color: var(--color-white);
-    padding: 70px 35px 70px 35px; 
-    margin-top: 37px;  
+    padding: 70px 35px 70px 35px;
+    margin-top: 37px;
 }
 
 .section-3-contain-3-text h2 {
@@ -497,9 +497,9 @@ header {
 }
 
 .section-4-a-boxes {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -517,11 +517,11 @@ header {
 }
 
 .section-4-a-box-1 {
-   text-align: center; 
-   border: var(--color-redish) 2px solid;
-   border-radius: 18px;
-   height: 461px;
-   width:372px;
+    text-align: center;
+    border: var(--color-redish) 2px solid;
+    border-radius: 18px;
+    height: 461px;
+    width: 372px;
 }
 
 .section-4-a-box-1 h3 {
@@ -612,6 +612,7 @@ header {
     top: 3px;
     left: 7px;
 }
+
 /*----------------------------------------------*/
 
 .section-4-a-button-1 {
@@ -621,7 +622,7 @@ header {
     position: absolute;
     top: calc(461px - 24px);
     left: calc(186px - 77.5px);
-    font-family:  var(--font-open-sans);
+    font-family: var(--font-open-sans);
     font-size: 13px;
     color: var(--color-white);
     font-weight: bold;
@@ -641,7 +642,7 @@ header {
 
 .section-4-a-box-2 h3 {
     font-size: 21px;
-    font-family:  var(--font-raleway);
+    font-family: var(--font-raleway);
     font-weight: bolder;
     margin-top: 34px;
     margin-bottom: 14px;
@@ -659,7 +660,7 @@ header {
 .section-4-a-box-2 p {
     font-size: 12px;
     color: var(--color-black);
-    font-family:  var(--font-raleway);
+    font-family: var(--font-raleway);
     font-weight: bolder;
     display: block;
     margin-bottom: 61px;
@@ -728,6 +729,7 @@ header {
     top: 3px;
     left: 124px;
 }
+
 /*-----------------------------------------------*/
 
 .section-4-a-bottno-2 {
@@ -735,7 +737,7 @@ header {
     border-radius: 23px;
     padding: 16px 57px;
     position: absolute;
-    font-family:  var(--font-open-sans);
+    font-family: var(--font-open-sans);
     font-size: 13px;
     color: var(--color-white);
     font-weight: bold;
@@ -761,7 +763,7 @@ header {
 
 .section-4-a-box-3 h3 {
     font-size: 21px;
-    font-family:  var(--font-raleway);
+    font-family: var(--font-raleway);
     font-weight: bolder;
     margin-top: 34px;
     margin-bottom: 14px;
@@ -779,7 +781,7 @@ header {
 .section-4-a-box-3 p {
     font-size: 12px;
     color: var(--color-black);
-    font-family:  var(--font-raleway);
+    font-family: var(--font-raleway);
     font-weight: bolder;
     display: block;
     margin-bottom: 61px;
@@ -856,7 +858,7 @@ header {
     background-color: var(--color-green);
     border-radius: 23px;
     padding: 16px 57px;
-    font-family:  var(--font-open-sans);
+    font-family: var(--font-open-sans);
     font-size: 13px;
     color: var(--color-white);
     font-weight: bold;
@@ -867,5 +869,129 @@ header {
 
 /*--------------MAIN - Section 4b -------------*/
 .section-4-b {
- padding-top: 100px;
+    padding-top: 100px;
+    width: 896px;
+    display: flex;
+}
+
+.section-4-b-content {
+    width: 342px;
+    margin-right: 114px;
+    position: relative;
+}
+
+.section-4-b-content h2 {
+    font-family: var(--font-raleway);
+    font-size: 49px;
+    margin-bottom: 22px;
+}
+
+.section-4-b-content p {
+    font-family: var(--font-open-sans);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+
+
+/*-----------MAIN - Section 4b - Icons----------*/
+.section-4-b-content-contacts span {
+    margin-left: 35px;
+    position: relative;
+}
+
+.section-4-b-content-contacts .email::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/Mail\ Icon.svg);
+    top: 0px;
+    left: -30px;
+}
+
+.section-4-b-content-contacts .phone::before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/Phone\ Icon.svg);
+    top: 0px;
+    left: -30px;
+}
+
+
+/*-----------MAIN - Section 4b - Form----------*/
+form {
+    width: 440px;
+}
+
+
+.name-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email span {
+    font-family: var(--font-open-sans);
+    font-size: 11px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 3.3px;
+    font-weight: bold;
+    /*margin-top: 42px;*/
+    margin-bottom: 42.5px;
+}
+
+.name-email span:last-of-type {
+    margin-top: 42px;
+}
+
+input {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--color-grey);
+    border-left: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    width: 440px;
+}
+
+.form-checkbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 30px;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox span {
+    height: 24px;
+    width: 24px;
+    flex-shrink: 0;
+    flex-basis: 60px;
+    border: 10px solid cornflowerblue;
+    cursor: pointer;
+    margin-right: 10px;
 }
