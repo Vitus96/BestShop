@@ -518,7 +518,7 @@ header {
 
 .section-4-a-box-1 {
    text-align: center; 
-   border: var(--color-redish) 1px solid;
+   border: var(--color-redish) 2px solid;
    border-radius: 18px;
    height: 461px;
    width:372px;
@@ -548,6 +548,9 @@ header {
     margin: 0 100px 0 100px;
 }
 
+
+/*------MAIN - Section 4a - 1. box - obrázky------*/
+
 .section-4-a-box-1 li {
     display: block;
     list-style: none;
@@ -555,64 +558,61 @@ header {
     position: relative;
 }
 
-/*
-.section-4-a-box-1 li:last-of-type {
-    margin-bottom: 0;
-}
-
-.img-1 {
+.section-4-a-box-1 .li-1::before {
+    content: "";
     position: absolute;
-    top:2px;
-    left: 0;
-}
-
-.li-2 img {}
-
-*/
-
-
-
-/*
-.section-4-a-box-1 li img:nth-of-type(1) {
-    position: absolute;
-    top:2px;
-    left: 0;
-}
-
-.section-4-a-box-1 li img:nth-of-type(2) {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-
-}
-*/
-
-
-/*
-.section-4-a-box-1 li:nth-of-type(1),
-.section-4-a-box-1 li:nth-of-type(2),
-.section-4-a-box-1 li:nth-of-type(3) {
-    display: block;
-    background-image: url(../assets/Checkmark-2.svg);
-    /*width: 11px;
+    width: 11px;
     height: 11px;
-    /*position: absolute;
-}*/
-
-
-
-
-
-
-/*
-section-4-a-button-1 {
-    background-color: var(--color-redish);
-    border-radius: 23px;
-    padding: 16px 57px;
-    margin-top: 55px;
-    display: inline-block;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 5px;
 }
-*/
+
+.section-4-a-box-1 .li-2::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 4px;
+}
+
+.section-4-a-box-1 .li-3::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 17px;
+}
+
+.section-4-a-box-1 .li-4::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Close.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: -11px;
+}
+
+.section-4-a-box-1 .li-5::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Close.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 7px;
+}
+/*----------------------------------------------*/
 
 .section-4-a-button-1 {
     background-color: var(--color-redish);
@@ -631,7 +631,7 @@ section-4-a-button-1 {
 /*------------MAIN - Section 4a - 2. box-------*/
 .section-4-a-box-2 {
     text-align: center;
-    border: var(--color-primary) 1px solid;
+    border: var(--color-primary) 2px solid;
     border-radius: 18px;
     box-shadow: 5px 10px 27px #07ACE629;
     height: 500px;
@@ -665,12 +665,70 @@ section-4-a-button-1 {
     margin-bottom: 61px;
 }
 
+
+/*------MAIN - Section 4a - 2. box - obrázky------*/
 .section-4-a-box-2 li {
     display: block;
     list-style: none;
     margin-bottom: 26px;
     position: relative;
 }
+
+.section-4-a-box-2 .li-1::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 126px;
+}
+
+.section-4-a-box-2 .li-2::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 120px;
+}
+
+.section-4-a-box-2 .li-3::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 136px;
+}
+
+.section-4-a-box-2 .li-4::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 105px;
+}
+
+.section-4-a-box-2 .li-5::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Close.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 124px;
+}
+/*-----------------------------------------------*/
 
 .section-4-a-bottno-2 {
     background-color: var(--color-primary);
@@ -689,14 +747,12 @@ section-4-a-button-1 {
 
 
 
-
-
 /*------------MAIN - Section 4a - 3. box-------*/
 
 .section-4-a-box-3 {
     position: relative;
     text-align: center;
-    border: var(--color-green) 1px solid;
+    border: var(--color-green) 2px solid;
     border-radius: 18px;
     box-shadow: 5px 10px 27px #07ACE629;
     height: 461px;
@@ -729,12 +785,71 @@ section-4-a-button-1 {
     margin-bottom: 61px;
 }
 
+
+/*------MAIN - Section 4a - 3. box - obrázky------*/
 .section-4-a-box-3 li {
     display: block;
     list-style: none;
     margin-bottom: 20px;
     position: relative;
 }
+
+.section-4-a-box-3 .li-1::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 115px;
+}
+
+.section-4-a-box-3 .li-2::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 103px;
+}
+
+.section-4-a-box-3 .li-3::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 115px;
+}
+
+.section-4-a-box-3 .li-4::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 90px;
+}
+
+.section-4-a-box-3 .li-5::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-2.svg);
+    margin: 0 10px 0 10px;
+    top: 3px;
+    left: 108px;
+}
+
+/*---------------------------------------------*/
 
 .section-4-a-bottno-3 {
     position: absolute;
@@ -750,7 +865,7 @@ section-4-a-button-1 {
 
 }
 
-/*------------MAIN - Section 4a - 3. box-------*/
+/*--------------MAIN - Section 4b -------------*/
 .section-4-b {
  padding-top: 100px;
 }
