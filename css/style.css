@@ -955,11 +955,21 @@ input {
     width: 100%;
 }
 
+/*  */
+.section-4-b-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 440px;
+}
+/*  */
+
+
 form {
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
-    width: 440px;
+    /*width: 440px;*/
 }
 
 .form-checkbox {
@@ -971,6 +981,9 @@ form {
 .checkbox {
     display: flex;
     margin-top: 30px;
+    font-family: var(--font-open-sans);
+    font-size: 12px;
+    color: var(--color-grey);
 }
 
 .checkbox input {
@@ -995,3 +1008,22 @@ form {
     cursor: pointer;
     margin-right: 10px;
 }
+
+
+/*---------MAIN - Section 4b - button-------*/
+.section-4-b-button {
+    background-color: var(--color-primary);
+    border-radius: 35px;
+    padding: 20px 97px;
+    width: 226px;
+    margin: 20px 0 59px 0;
+    font-family: var(--font-open-sans);
+    color: var(--color-white);
+    font-size: 13px;
+    font-weight: bolder;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+/*----------------FOOTER-------------------*/
