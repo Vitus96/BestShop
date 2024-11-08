@@ -756,7 +756,6 @@ header {
     text-align: center;
     border: var(--color-green) 2px solid;
     border-radius: 18px;
-    box-shadow: 5px 10px 27px #07ACE629;
     height: 461px;
     width: 372px;
 }
