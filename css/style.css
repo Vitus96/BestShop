@@ -1000,14 +1000,23 @@ form {
 }
 
 .checkbox span {
+    display: block;
     height: 24px;
     width: 24px;
     flex-shrink: 0;
-    flex-basis: 60px;
-    border: 10px solid cornflowerblue;
+    flex-basis: 24px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
 }
+
+.checkbox input:checked + span {
+    background-image: url(../assets/Checkmark.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 
 
 /*---------MAIN - Section 4b - button-------*/
